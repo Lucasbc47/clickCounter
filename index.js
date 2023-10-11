@@ -1,4 +1,4 @@
-var i = 0;
+let i = 0;
 
 document.getElementById("press").addEventListener("click", updateClicks);
 document.getElementById("reset").addEventListener("click", resetarClicks);
