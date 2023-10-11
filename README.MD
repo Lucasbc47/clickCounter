@@ -1,2 +1,3 @@
 # clickCounter por Lucasbc
-## estudo de html, css e javascript!
+site básico em meu estudo de html, css e javascript!
+SENAI - Anchieta Vila Mariana
