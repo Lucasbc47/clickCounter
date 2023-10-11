@@ -1,14 +1,14 @@
-let i = 0;
+let clicksCount = 0;
 
 document.getElementById("press").addEventListener("click", updateClicks);
 document.getElementById("reset").addEventListener("click", resetarClicks);
 
 function updateClicks() {
-  i++;
-  document.getElementById("times").innerHTML = `Vezes clicado: ${i}`
+  clicksCount++;
+  document.getElementById("times").innerHTML = `Vezes clicado: ${clicksCount}`
 }
 
 function resetarClicks() {
-  i = 0;
+  clicksCount = 0;
   document.getElementById("times").innerHTML = `Vezes clicado:`
 }
